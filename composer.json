@@ -1,0 +1,25 @@
+{
+	"name": "rwt/swiftpdo",
+	"description": "SwiftPDO is a quick and light PHP library for rapid query building. It features a smart join builder, which automatically creates table joins.",
+	"keywords": ["db", "database", "dbal", "pdo", "fluent", "query", "builder", "mysql", "oracle"],
+	"homepage": "https://github.com/romandulman/swiftpdo",
+	"license": ["Apache-2.0", "GPL-2.0+"],
+	"authors": [
+		{
+			"name": "Roman Dulman, Reactive Web Technologies",
+			"homepage": "https://reactivewebtech.com/"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"rwt\\SwiftPDO\\": "src/"
+		}
+	},
+  "require": {
+    "php": "^7.1",
+    "ext-pdo": "*"
+  },
+	"require-dev": {
+		"phpunit/phpunit": "^8.0"
+	}
+}
